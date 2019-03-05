@@ -3,6 +3,7 @@
     "description": "A module that adds extra customer attribute",
     "type": "magento2-module",
     "minimum-stability": "dev",
+    "version": "1.0.0",
     "authors":[
         {
             "name":"Mehmet Uygur",

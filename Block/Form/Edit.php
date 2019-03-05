@@ -15,10 +15,11 @@ class Edit extends MagentoCustomerEdit
     /**
      * Get customer github Url
      *
-     * @return mixed
+     * @return string
      */
     public function getGithubUrl()
     {
-        return $this->getCustomer()->getCustomAttribute('github_url')->getValue();
+        $customerGithubUrl = $this->getCustomer()->getCustomAttribute('github_url');
+        return $customerGithubUrl ? $customerGithubUrl->getValue() : '';
     }
 }
