@@ -1,0 +1,20 @@
+{
+    "name": "bestresponsemedia/module-customers",
+    "description": "A module that adds extra customer attribute",
+    "type": "magento2-module",
+    "minimum-stability": "dev",
+    "authors":[
+        {
+            "name":"Mehmet Uygur",
+            "email": "meminuygur@yandex.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bestresponsemedia\\Customers\\": ""
+        }
+    }
+}
